@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/tb_isim_beh.exe" -prj "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/tb_beh.prj" "work.tb" "work.glbl" 

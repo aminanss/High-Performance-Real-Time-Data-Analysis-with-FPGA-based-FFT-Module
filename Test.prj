@@ -1,0 +1,3 @@
+verilog work "HeaderDetector.v"
+verilog work "HeaderCreator.v"
+verilog work "Test.v"

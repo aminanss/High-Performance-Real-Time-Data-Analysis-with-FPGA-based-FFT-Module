@@ -1,0 +1,5 @@
+verilog work "HeaderDetector.v"
+verilog work "HeaderCreator.v"
+verilog work "Test.v"
+verilog work "tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

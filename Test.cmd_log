@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k325t-fbg676-3 "Test.ngc" Test.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k325t-fbg676-3 "Test.ngc" Test.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k325t-fbg676-3 "Test.ngc" Test.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k325t-fbg676-3 "Test.ngc" Test.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf 
+xst -intstyle ise -ifn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.xst" -ofn "D:/SUT/EE/8th Semester/ASIC and FPGA Chip Design - Shabany/Project/Phase 2/Check/Test_Header/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k325t-fbg676-3 "Test.ngc" Test.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf 
